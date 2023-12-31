@@ -15,7 +15,7 @@ from credentials.credential_manager import credential_management
 import json
 
 # Read the ID and range of a sample spreadsheet from config.json
-config_json = open("sanity-tests/sample_config.json")
+config_json = open("google-sheets/read_from_sheet_config.json")
 config_data = json.load(config_json)
 SAMPLE_SPREADSHEET_ID = config_data["READ_SPREADSHEET_ID"]
 SAMPLE_RANGE_NAME = config_data["READ_RANGE"]

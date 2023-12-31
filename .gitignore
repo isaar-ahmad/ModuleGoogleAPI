@@ -5,7 +5,9 @@ sanity_test/__pycache__/
 *$py.class
 
 # Google API
-credentials.json
+credentials/credentials.json
+credentials/token.json
+
 
 # C extensions
 *.so
