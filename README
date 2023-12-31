@@ -1,0 +1,10 @@
+# KNOWN ISSUES
+
+1. pip version installation for python 3.10 in virtual environment
+
+When configuring app for the first time, use the following command to setup correct pip version for python 3.10:
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
+
+Reference :
+https://stackoverflow.com/questions/70431655/importerror-cannot-import-name-html5lib-from-pip-vendor-usr-lib-python3
+

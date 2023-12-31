@@ -1,7 +1,11 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+sanity_test/__pycache__/
 *.py[cod]
 *$py.class
+
+# Google API
+credentials.json
 
 # C extensions
 *.so
