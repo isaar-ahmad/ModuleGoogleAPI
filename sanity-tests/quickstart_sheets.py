@@ -8,7 +8,7 @@ from credential_manager import credential_management
 import json
 
 # Read the ID and range of a sample spreadsheet from config.json
-config_json = open("config.json")
+config_json = open("sample_config.json")
 config_data = json.load(config_json)
 SAMPLE_SPREADSHEET_ID = config_data["READ_SPREADSHEET_ID"]
 SAMPLE_RANGE_NAME = config_data["READ_RANGE"]
