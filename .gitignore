@@ -8,6 +8,7 @@ sanity_test/__pycache__/
 credentials/credentials.json
 credentials/token.json
 
+google-sheets/read-from-sheet/data/*
 
 # C extensions
 *.so
