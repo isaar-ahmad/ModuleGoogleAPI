@@ -3,6 +3,7 @@ __pycache__/
 sanity_test/__pycache__/
 *.py[cod]
 *$py.class
+mvenv/*
 
 # Google API
 credentials/credentials.json

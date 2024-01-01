@@ -8,3 +8,9 @@ curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
 Reference :
 https://stackoverflow.com/questions/70431655/importerror-cannot-import-name-html5lib-from-pip-vendor-usr-lib-python3
 
+# Base setup
+1. Clone this repository
+2. Credentials : Add a credentials.json file.
+
+# Google Sheets
+1. Read config setup : add the spreadsheet ID and data range in read_from_sheet_config.json
